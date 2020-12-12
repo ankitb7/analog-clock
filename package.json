@@ -1,0 +1,38 @@
+{
+  "name": "analog-clock",
+  "version": "0.1.0",
+  "homepage": "https://ankitb7.github.io/analog-clock",
+  "description": "Analog clock built using JS and CSS",
+  "keywords": [
+    "analog-clock"
+  ],
+  "scripts": {
+    "build": "gulp build",
+    "deploy": "gulp deploy"
+  },
+  "devDependencies": {
+    "gulp-gh-pages": "^0.5.4",
+    "gh-pages": "^3.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-eslint": "^6.0.0",
+    "gulp-header": "^2.0.9",
+    "gulp-load-plugins": "^2.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
+    "jquery": "3.4.1",
+    "del": "^5.1.0",
+    "eslint": "^5.16.0",
+    "eslint-config-recommended": "^4.0.0"
+  },
+  "directories": {
+    "dist": "dist",
+    "src": "src"
+  },
+  "files": [
+    "package.json",
+    "dist/",
+    "README.md"
+  ],
+  "dependencies": {}
+}
